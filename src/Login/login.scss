@@ -1,0 +1,41 @@
+.loginContainer{
+    display: flex;
+    width:40vw;
+    height:100%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff
+    ;
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+        width:50%;
+        text-align: left;
+    }
+    h2{
+        margin-bottom:0px;
+    }
+    form{
+        gap:20px;
+        height:50%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        input{
+            border-radius: 2em;
+            border:1px solid #eeeeee;
+            padding:18px 26px 18px 26px;
+            color:#333333;
+        }
+    }
+    button{
+        background: #0575E6;
+        border-radius: 2em;
+        color:#FFFFFF;
+    }
+    .forgot{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
